@@ -27,7 +27,7 @@ This project was implemented to simulate a Canberra GC3018.
 - Email: hungbt1908@gmail.com, hungbuitien19081997@gmail.com \
 - Phone: (+84) 35 2348 985 \
 - Address: Phenikaa University Hospital
-- 
+
 ### Background: 
 - MSc in Nuclear Engineering
 
