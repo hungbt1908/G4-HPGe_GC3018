@@ -1,0 +1,23 @@
+# verbose
+#/control/verbose 2
+#/run/verbose 2
+#/tracking/verbose 0
+
+# change the default number of workers (in multi-threading mode) 
+/run/numberOfThreads 6
+
+# physics
+/cuts/setLowEdge 250 eV # setting production edges 
+
+# set output name
+/output/FileName output.root
+
+# initialize kernel
+/run/initialize
+
+# source
+/control/execute GPS.mac
+
+# run
+/run/printProgress 100000
+/run/beamOn 10000000

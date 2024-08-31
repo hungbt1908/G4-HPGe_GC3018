@@ -1,0 +1,46 @@
+# GPS macro for Gaussian-energies source distribution
+
+/gps/source/intensity 0.999826
+/gps/ene/type Gauss 
+/gps/ene/mono 1.332 MeV
+/gps/ene/sigma 0.97162413953
+/gps/particle gamma
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/centre 0.0 5.0 0.0 cm
+/gps/pos/radius 1.0 mm
+/gps/pos/halfz 0.5 mm
+/gps/ang/type iso
+/gps/direction 0 -1 0
+/gps/ang/minphi 0 deg
+/gps/ang/maxphi 30 deg
+
+/gps/source/add 0.9985
+/gps/ene/type Gauss
+/gps/ene/mono 1.173 MeV
+/gps/ene/sigma 0.93765126752 keV
+/gps/particle gamma
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/centre 0.0 5.0 0.0 cm
+/gps/pos/radius 1.0 mm
+/gps/pos/halfz 0.5 mm
+/gps/ang/type iso
+/gps/direction 0 -1 0
+/gps/ang/minphi 0 deg
+/gps/ang/maxphi 30 deg
+
+/gps/source/add 0.000001
+/gps/ene/type Gauss
+/gps/ene/mono 2.505 MeV
+/gps/ene/sigma 1.10326901857 keV
+/gps/particle gamma
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/centre 0.0 5.0 0.0 cm
+/gps/pos/radius 1.0 mm
+/gps/pos/halfz 0.5 mm
+/gps/ang/type iso
+/gps/direction 0 -1 0
+/gps/ang/minphi 0 deg
+/gps/ang/maxphi 30 deg

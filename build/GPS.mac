@@ -1,0 +1,27 @@
+/gps/source/intensity 1
+/gps/ene/type Mono
+/gps/ene/mono 1.332 MeV
+/gps/particle gamma
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/centre 0.0 5.0 0.0 cm
+/gps/pos/radius 1.0 mm
+/gps/pos/halfz 0.5 mm
+/gps/ang/type iso
+/gps/direction 0 -1 0
+/gps/ang/minphi 0 deg
+/gps/ang/maxphi 30 deg
+
+/gps/source/add 1
+/gps/ene/type Mono
+/gps/ene/mono 1.173 MeV
+/gps/particle gamma
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/centre 0.0 5.0 0.0 cm
+/gps/pos/radius 1.0 mm
+/gps/pos/halfz 0.5 mm
+/gps/ang/type iso
+/gps/direction 0 -1 0
+/gps/ang/minphi 0 deg
+/gps/ang/maxphi 30 deg
